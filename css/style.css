@@ -1,0 +1,17 @@
+.imgnav{
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 2.5px;
+}
+
+#title{
+   margin-left: 85px;
+    font: 600 35px/35px 'Teko',Helvetica,sans-serif;
+    margin-top: 15px;
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: black;
+}
+
+#navbar{
+    background: #ffa726;
+}
