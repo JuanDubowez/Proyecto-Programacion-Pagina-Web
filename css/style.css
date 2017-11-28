@@ -117,3 +117,8 @@ b{
     height: 500px;
     width: 60%;
 }
+
+#titulo_categoria{
+    "Lucida Console", Monaco, monospace;
+    background-color: #ffee58;
+}
