@@ -24,23 +24,29 @@ Con esta pagina logramos que cualquier persona no instruida pueda facilmente mej
 Esta desarrollada con un agradable interfaz, simple y completo.
 
 Un paneo rapido del home:
-![](https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord(1).gif?alt=media&token=08d7935f-868d-45e7-a62d-c0f909d4d5e2)
+
+https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord(1).gif?alt=media&token=08d7935f-868d-45e7-a62d-c0f909d4d5e2
 
 Una barra de navegacion donde tendremos a simple vista todas las categorias que podemos encontrar en esta pagina y acceder con un click a cualquiera que deseemos:
-![](https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord2(1).gif?alt=media&token=dfad0ecd-5557-4058-bfb6-81b69ad506b5)
+
+https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord2(1).gif?alt=media&token=dfad0ecd-5557-4058-bfb6-81b69ad506b5
 
 Por ejemplo si ingresamos a la de estiramientos..
-![](https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord4.gif?alt=media&token=665c6e07-55dc-42dc-884a-843ad70bf4b5)
+
+https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord4.gif?alt=media&token=665c6e07-55dc-42dc-884a-843ad70bf4b5
 
 Asi es cada categoria, encontramos tarjetas con una imagen representativa y una breve descripcion y si la clickeamos podemos ver un video explicativo: 
 Aclaracion:No se abre el video porque el internet del colegio tiene bloqueado youtube.
-![](https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord5(1).gif?alt=media&token=4910a3fb-2f3f-48dd-aab4-b06afd8a78ec)
+
+https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord5(1).gif?alt=media&token=4910a3fb-2f3f-48dd-aab4-b06afd8a78ec
 
 Podemos observar algunos de nuestros clientes y su transformacion a partir de que comenzaron a usar nuestra pagina.
-![](https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord6.gif?alt=media&token=05aa1500-49ec-4068-9f37-49782059214a)
+
+https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord6.gif?alt=media&token=05aa1500-49ec-4068-9f37-49782059214a
 
 Nos podes contactar pora alguna suguerencia,duda o reporte de queja:
-![](https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord3.gif?alt=media&token=b44185c2-6236-495e-b536-0b066efd0731)
+
+https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord3.gif?alt=media&token=b44185c2-6236-495e-b536-0b066efd0731
 
 ***
 ### Dependencias
