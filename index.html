@@ -1,78 +1,274 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Link styles Structure -->
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen,projection"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+
+        <title>
+            HUGE - Workouts, Bodybuilding, Nutrition & advice
+        </title>
+    </head>	
+
+    <body>
+
+        <!-- Dropdown items Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!" id="drop" >Brazos</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Espalda</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Pecho</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Abs</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Piernas</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Hombros</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="#!" id="drop" >Guia de alimentos</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Adelgazar</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Ganancia de peso</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Pre-entrenamiento</a></li>
+            <li class="divider"></li> 
+            <li><a href="#!" id="drop" >Post-entrenamiento</a></li>
+        </ul>
+        <ul id="dropdown3" class="dropdown-content">
+            <li><a href="#!" id="drop" >Alimentacion</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Ejercicios</a></li>
+        </ul>
+        <ul id="dropdown4" class="dropdown-content">
+            <li><a href="#!" id="drop" >Tasa metabolica basal (TMB)</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Indice de masa corporal (IMC)</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Tu tipo de cuerpo</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >One-Rep Max (1RM)</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Peso de tus musculo</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" id="drop" >Calorias diarias necesarias</a></li>
+        </ul>
+
+        <!-- Navbar Structure -->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper" id="navbar">
+                    <a href="#!" class="brand-logo"><img class="imgnav" src="static/logo.png"></a>
+                    <a href="#!" class="brand-logo" id="title">HUGE</a>
+                    <ul class="right hide-on-med-and-down" style="margin-right: 15px;">
+                        <li><a class="dropdown-button" href="#!" data-beloworigin="true" hover="true" data-activates="dropdown1" style="width: 127px;text-align: center">EJERCICIOS</a></li>
+                        <li><a class="dropdown-button" href="#!" data-beloworigin="true" hover="true" data-activates="dropdown2" style="width: 140px;text-align: center">NUTRICION</a></li>
+                        <li><a>ESTIRAMIENTOS</a></li>
+                        <li><a class="dropdown-button" href="#!" data-beloworigin="true" hover="true" data-activates="dropdown4" style="width: 140px;text-align: center">CALCULADORAS</a></li>
+                        <li><a class="dropdown-button" href="#!" data-beloworigin="true" hover="true" data-activates="dropdown3" style="width: 127px;text-align: center" >CONSEJOS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Carousel Structure -->
+        <div class= "carousel carousel-slider" id="carusel" >
+            <a class="carousel-item" href="#one!"><img src="static/c1.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="static/c5.gif"></a>
+            <a class="carousel-item" href="#three!"><img src="static/carousel1.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="static/carousel2.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="static/carousel3.jpg"></a>
+            <a class="carousel-item" href="#six!"><img src="static/c6.jpg"></a>
+            <a class="carousel-item" href="#seven!"><img src="static/c7.jpg"></a>
+        </div>
+
+        <!-- Items Structure -->
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons"style="font-size: xx-large;">fitness_center</i></h2>
+                            <h5 class="center">Entrenamientos</h5>
+                            <p class="light"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et ligula posuere, iaculis ante sed, rutrum justo. Fusce vitae faucibus massa.</p>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons"style="font-size: xx-large;">restaurant</i></h2>
+                            <h5 class="center">Nutricion</h5>
+                            <p class="light"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et ligula posuere, iaculis ante sed, rutrum justo. Fusce vitae faucibus massa. Pellentesque sit amet tortor non justo tempor tempor. Sed vel ligula sed erat aliquam hendrerit. In eget justo in odio pharetra posuere ut in ante. Fusce augue nunc, fringilla quis pretium ac, sollicitudin et justo.</p>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><i class="material-icons"style="font-size: xx-large;">lightbulb_outline</i></h2>
+                            <h5 class="center">Consejos</h5>
+                            <p class="light"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et ligula posuere, iaculis ante sed, rutrum justo. Fusce vitae faucibus massa. Pellentesque sit amet tortor non justo tempor tempor. Sed vel ligula sed erat aliquam hendrerit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Parallax imagen Structure -->
+            <div class="parallax-container valign-wrapper">
+                <div class="section no-pad-bot">
+                    <div class="container">
+                        <div class="row center">
+                            <h5 class="header col s12 light">CONOCE TU PROPIA FUERZA</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="parallax"><img src="static/portadaAU.jpg" alt="Portada about us"></div>
+            </div>
+
+            <!-- Why us Structure -->
+            <div class="container">
+                <div class="section">
+                    <div class="row">
+                        <div class="col s12 center">
+                            <h3><i class="mdi-content-send brown-text"></i></h3>
+                            <h4>Porque elegir HUGE</h4>
+                            <p class="left-align light">
+
+                                ¿Puede esta pagina realmente ayudar a la gente "normal" a ponerse en forma?
+                                Las personas "normales" no tienen horas para pasar en un gimnasio todos los días, ni tampoco pueden gastar una pequeña fortuna en alimentos especiales o suplementos y dispositivos de entrenamiento.
+                                Pueden dar de 3 a 6 horas para ejercitarse por semana, y volver a trabajar y poder incluir un poco de comida adicional o un suplemento o dos.
+                                Las personas "normales" tampoco quieren golpearse el cerebro en cada entrenamiento, ni quieren vivir de pollo hervido y brócoli al vapor durante meses, o sienten que tienen que buscar almas después de entregarse a un postre.
+                                Están dispuestos a trabajar duro en el gimnasio, pero quieren disfrutar de sus entrenamientos, y quieren poder comer una variedad de comidas sabrosas, incluso algunas cosas "malas" de vez en cuando.
+                                Bueno, tengo buenas noticias para ti: HUGE esta a favor de ayudar a las personas "normales" a construir cuerpos extraordinarios.
+                                ¿Quieres alguna prueba?
+                                Mira lo que algunos de nuestros lectores y seguidores han logrado siguiendo nuestros consejos ...</p>
+
+                            <!-- Modal Structure -->
+                            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Logros</a>
+
+                            <div id="modal1" class="modal modal-fixed-footer"style="height: 500px;">
+                                <div class="modal-content">
+                                    <h5>Transformaciones logradas con nuestro asesoramiento.</h5>
+
+                                    <div class="row">
+                                        <div class="col s6">
+                                            <ul>
+                                                <li><a><b>Antes</b></a></li>
+                                                <li><img src="static/cambio1a.png"></li>
+                                                <li><img src="static/cambio2a.png"></li>
+                                                <li><img src="static/cambio3a.png"></li>
+                                                <li><img src="static/cambio4a.png"></li>
+                                                <li><img src="static/cambio5a.png"></li>
+                                                <li><img src="static/cambio6a.png"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col s6">
+                                            <ul>
+                                                <li><a><b>Duespues</b></a></li>
+                                                <li><img src="static/cambio1d.png"></li>
+                                                <li><img src="static/cambio2d.png"></li>
+                                                <li><img src="static/cambio3d.png"></li>
+                                                <li><img src="static/cambio4d.png"></li>
+                                                <li><img src="static/cambio5d.png"></li>
+                                                <li><img src="static/cambio6d.png"></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer"style="background-color: #ff9100;">
+                                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"style="color: black;">Yo tambien quiero!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Structure -->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row" style="height: 428px;">
+                    <div id="formulario" class="col l6 s12"style="margin-bottom: -36px;">
+                        <h5 class="white-text" style="margin-left: 55px;">Contactanos</h5>
+                        <div class="container">
+                            <div class="row">
+                                <div class="row">
+                                    <form class="col s12">
+                                        <div class="row" style="height: 10px;">
+                                            <div class="input-field col s12">
+                                                <input id="name" type="text">
+                                                <label for="name">Nombre</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                                <input id="email" type="email" class="validate" class="form-input">
+                                                <label for="email" data-error="Error. Ingrese una direccion de correo">Email</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                                <textarea id="message" class="materialize-textarea"data-length="240"></textarea>
+                                                <label for="message">Mensaje</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col m6">
+                                                <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="submit" onclick="tomarDatos()"><i class="material-icons right">message</i>Enviar</button></p>
+                                            </div>
+                                            <div class="col s6 offset-s6" id = "success">
+                                                <div class="card-panel teal"  style="width: 322px;margin-top: -61px;">
+                                                    <span class="white-text"><i class="material-icons left">check</i>Enviado! Gracias por contactarnos.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Acerca de nosotros</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et ligula posuere, iaculis ante sed, rutrum justo. Fusce vitae faucibus massa. Pellentesque sit amet tortor non justo tempor tempor. Sed vel ligula sed erat aliquam hendrerit. In eget justo in odio pharetra posuere ut in ante. Fusce augue nunc, fringilla quis pretium ac, sollicitudin et justo. </p>
+                    </div>
+                </div>
+                <div class="footer-copyright" style="margin-top: 26px;">
+                    <div class="container" style="margin-right: 230px;">
+                        © 2017 Copyright HUGE
+                        <a class="grey-text text-lighten-4 right" style="margin-left: 254px;margin-right: -196px;" href="#!">By Juan Dubowez</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Link Scipts -->
+        <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyDKDRIGxvbAe04GnVeGB2P9DRZNO0tcrVY",
+                authDomain: "huge-58e8c.firebaseapp.com",
+                databaseURL: "https://huge-58e8c.firebaseio.com",
+                projectId: "huge-58e8c",
+                storageBucket: "",
+                messagingSenderId: "1067036324749"
+            };
+            firebase.initializeApp(config);
+        </script>
+
         <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="js/popper.min.js"></script>
         <script type="text/javascript" src="js/popper.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/materialize.js"></script>
-        <script type="text/javascript" src="js/js.js"></script>
+        <scrip type="text/javascript" src="js/smtp.js"></scrip>
+        <script type="text/javascript" src="js/js.js">"</script>
 
-        <title>HUGE - Workouts, Bodybuilding, Nutrition & advice</title>
-    </head>	
-
-    <body>
-        <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#!" style="text-align: center;">Brazos</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Espalda</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Pecho</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Abs</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Piernas</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Hombros</a></li>
-        </ul>
-        <ul id="dropdown2" class="dropdown-content">
-            <li><a href="#!" style="text-align: center;">Guia de alimentos</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Adelgazar</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Ganancia de peso</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Pre-entrenamiento</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Post-entrenamiento</a></li>
-        </ul>
-        <ul id="dropdown3" class="dropdown-content">
-            <li><a href="#!" style="text-align: center;">Alimentacion</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Ejercicios</a></li>
-            <li class="divider"></li>
-        </ul>
-        <ul id="dropdown4" class="dropdown-content">
-            <li><a href="#!" style="text-align: center;">Tasa metabolica basal (TMB)</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Indice de masa corporal (IMC)</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Tu tipo de cuerpo</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">One-Rep Max (1RM)</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Peso de tus musculo</a></li>
-            <li class="divider"></li>
-            <li><a href="#!" style="text-align: center;">Calorias diarias necesarias</a></li>
-            <li class="divider"></li>
-        </ul>
-
-        <nav>
-            <div class="nav-wrapper" id="navbar">
-                <a href="#!" class="brand-logo"><img class="imgnav" src="static/logo.png"></img></a>
-            <a href="#!" class="brand-logo" id="title">HUGE</a>
-            <ul class="right hide-on-med-and-down" style="margin-right: 15px;">
-                <li><a class="dropdown-button" href="#!" data-beloworigin="true" hover="true" data-activates="dropdown1" style="width: 127px;text-align: center">EJERCICIOS</a></li>
-                <li><a class="dropdown-button" href="#!" data-beloworigin="true" hover="true" data-activates="dropdown2" style="width: 140px;text-align: center">NUTRICION</a></li>
-                <li><a>ESTIRAMIENTOS</a></li>
-                <li><a class="dropdown-button" href="#!" data-beloworigin="true" hover="true" data-activates="dropdown4" style="width: 140px;text-align: center">CALCULADORAS</a></li>
-                <li><a class="dropdown-button" href="#!" data-beloworigin="true" hover="true" data-activates="dropdown3" style="width: 127px;text-align: center" >CONSEJOS</a></li>
-            </ul>
-            </div>
-        </nav>
     </body>
 </html>
