@@ -24,7 +24,7 @@ Con esta pagina logramos que cualquier persona no instruida pueda facilmente mej
 Esta desarrollada con un agradable interfaz, simple y completo.
 
 Un paneo rapido del home:
-![](https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord5(1).gif?alt=media&token=4910a3fb-2f3f-48dd-aab4-b06afd8a78ec)
+![](https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord(1).gif?alt=media&token=08d7935f-868d-45e7-a62d-c0f909d4d5e2)
 
 Una barra de navegacion donde tendremos a simple vista todas las categorias que podemos encontrar en esta pagina y acceder con un click a cualquiera que deseemos:
 ![](https://firebasestorage.googleapis.com/v0/b/huge-58e8c.appspot.com/o/screenrecord2(1).gif?alt=media&token=dfad0ecd-5557-4058-bfb6-81b69ad506b5)
